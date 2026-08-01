@@ -1,7 +1,29 @@
 aid: primesense
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primesense.png
 name: Primesense
-description: Primesense is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PrimeSense was an Israeli fabless semiconductor and 3D-sensing company, best
+  known for co-developing the depth-sensing technology behind Microsoft's Kinect
+  and for sponsoring the open-source OpenNI (Open Natural Interaction) framework
+  and its NiTE middleware for skeleton tracking and gesture recognition. The
+  company shipped the PrimeSensor reference design and PS1080 system-on-chip for
+  structured-light depth cameras. Apple acquired PrimeSense in November 2013 for
+  roughly $360M; the OpenNI project and openni.org were subsequently wound down
+  (openni.org now redirects to apple.com) and the company's developer program,
+  website, and API/docs hosts are no longer online. Only legacy Apache-2.0
+  source repositories (the OpenNI sensor driver and NiTE controls) remain public
+  on GitHub. There is no live web/REST API surface for PrimeSense.
 url: https://raw.githubusercontent.com/api-evangelist/primesense/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,34 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: apple
+x-acquired-date: '2013-11'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- 3D Sensing
+- Depth Camera
+- Computer Vision
+- Middleware
+- Semiconductor
+- Acquired
+- Defunct
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/PrimeSense
+- type: SourceCode
+  url: https://github.com/PrimeSense/Sensor
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
