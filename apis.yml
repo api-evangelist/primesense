@@ -48,6 +48,9 @@ tags:
 - Defunct
 apis: []
 common:
+- type: License
+  name: Apache-2.0
+  url: https://github.com/PrimeSense/Sensor/blob/master/LICENSE
 - type: GitHubOrganization
   url: https://github.com/PrimeSense
 - type: SourceCode
