@@ -1,4 +1,16 @@
 aid: primesense
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -57,6 +69,8 @@ tags_raw:
 - Defunct
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/PrimeSense/Sensor/issues
 - type: License
   name: Apache-2.0
   url: https://github.com/PrimeSense/Sensor/blob/master/LICENSE
